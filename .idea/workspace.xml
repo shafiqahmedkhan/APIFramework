@@ -45,20 +45,19 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Scenario: Verify if Place is being successfully added AddPlaceAPI" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: placeValidations" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/placeValidations.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/placeValidations.feature" />
       <option name="GLUE" value="stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="APIFramework" />
-      <option name="NAME_FILTER" value="^Verify if Place is being successfully added AddPlaceAPI$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify if Place is being successfully added AddPlaceAPI$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify if Place is being successfully added AddPlaceAPI" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: placeValidations" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -72,7 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Verify if Place is being successfully added AddPlaceAPI" />
+        <item itemvalue="Cucumber Java.Feature: placeValidations" />
       </list>
     </recent_temporary>
   </component>
