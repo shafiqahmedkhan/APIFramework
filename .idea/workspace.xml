@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="927ec67e-3e2b-4393-827a-34afeb982428" name="Changes" comment="" />
+    <list default="true" id="927ec67e-3e2b-4393-827a-34afeb982428" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/APIResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/TestDataBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/global.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/stepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/stepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/placeValidations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/placeValidations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/placeValidations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/placeValidations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/stepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/stepDefinition.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +55,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "/Users/shafiqahmedkhan/Documents/APIFramework/src/test/java",
     "project.structure.last.edited": "Libraries",
