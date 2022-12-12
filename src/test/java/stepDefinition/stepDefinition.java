@@ -66,8 +66,8 @@ public class stepDefinition extends Utils {
     }
     @Then("{string} in response body is {string}")
     public void in_response_body_is(String keyValue, String Expectedvalue) {
-        //String resp = response.asString();
-        //JsonPath js = new JsonPath(resp);
-        //assertEquals(js.get(keyValue).toString(), Expectedvalue);
+        String resp = response.asString();
+        JsonPath js = new JsonPath(resp);
+        assertEquals(js.get(keyValue).toString(), Expectedvalue);
     }
 }
