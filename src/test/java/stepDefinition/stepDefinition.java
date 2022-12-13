@@ -1,4 +1,5 @@
 package stepDefinition;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -32,7 +33,9 @@ public class stepDefinition extends Utils {
 
     @Given("Add Place Payload with {string} {string} {string}")
     public void addPlacePayloadWith(String name, String language, String address) throws IOException {
-        res = given().spec(requestSpecification()).body(data.addPlacePayload(name, language, address));
+        res = given()
+                .log().all()
+                .spec(requestSpecification()).body(data.addPlacePayload(name, language, address));
     }
 
     @When("user calls {string} with {string} http request")
@@ -69,5 +72,6 @@ public class stepDefinition extends Utils {
         String resp = response.asString();
         JsonPath js = new JsonPath(resp);
         assertEquals(js.get(keyValue).toString(), Expectedvalue);
+
     }
 }

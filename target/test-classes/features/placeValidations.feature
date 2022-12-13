@@ -4,7 +4,7 @@ Feature: Validating Place API's
     When user calls "AddPlaceAPI" with "Post" http request
     Then the API call is success with status code 200
     And "status" in response body is "OK"
-    And "response" in response body is "APP"
+    And "scope" in response body is "APP"
     Examples:
       |name   |language|address           |
       |AAhouse|English |World Cross center|
